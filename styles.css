@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "roboto";
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 20px 0;
+}
+.container {
+  max-width: 70%;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+.nav-menu a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.hero {
+  margin: 150px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+.hero-content p {
+  text-wrap: wrap;
+  text-align: left;
+  padding: 20px 0;
+  color: #e5e7eb;
+  max-width: 70ch;
+}
+
+.hero-btn {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 3px;
+  color: #f9faf8;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.hero-img {
+  margin: 0;
+  max-width: 50%;
+}
